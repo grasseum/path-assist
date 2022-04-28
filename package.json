@@ -1,0 +1,33 @@
+{
+  "name": "path-assist",
+  "version": "0.1.1",
+  "description": "Path helper for filesystem",
+  "main": "index.js",
+  "scripts": {
+    "es_linter": "eslint module/*/*.js *.js --fix",
+    "test_cjs": "mocha test/*/*.test.js"
+  },
+  "keywords": [
+    "pathassist",
+    "Path",
+    "Assist"
+  ],
+  "devDependencies": {
+    "structkit": "^1.3.1",
+    "mocha": "^5.2.0",
+    "jslint": "^0.12.1",
+    "eslint-config-strongloop": "^2.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "esm": "^3.2.25"
+  },
+  "author": "Pein Freccs",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grasseum/path-assist.git"
+  },
+  "bugs": {
+    "url": "https://github.com/grasseum/path-assist/issues"
+  },
+  "homepage": "https://github.com/grasseum/path-assist#readme"
+}
